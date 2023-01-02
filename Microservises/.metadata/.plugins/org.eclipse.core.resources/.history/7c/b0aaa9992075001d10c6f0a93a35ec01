@@ -1,0 +1,24 @@
+package com.example.UserService.Management;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
+import org.springframework.context.annotation.Bean;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
+
+@SpringBootApplication(exclude = SecurityAutoConfiguration.class)
+@EnableSwagger2
+public class UserServiceManagementApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(UserServiceManagementApplication.class, args);
+	}
+
+	@Bean
+	public BCryptPasswordEncoder passwordEncoder() {
+		return new BCryptPasswordEncoder();
+	}
+
+}

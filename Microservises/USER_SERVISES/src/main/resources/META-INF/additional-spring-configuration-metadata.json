@@ -1,0 +1,87 @@
+{"properties": [
+  {
+    "name": "spring.datasource1.url",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource1.url'"
+  },
+  {
+    "name": "spring.datasource1.username",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource1.username'"
+  },
+  {
+    "name": "spring.datasource1.password",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource1.password'"
+  },
+  {
+    "name": "spring.datasource1.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource1.driver-class-name'"
+  },
+  {
+    "name": "spring.datasource2.url",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource2.url'"
+  },
+  {
+    "name": "spring.datasource2.username",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource2.username'"
+  },
+  {
+    "name": "spring.datasource2.password",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource2.password'"
+  },
+  {
+    "name": "spring.datasource2.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource2.driver-class-name'"
+  },
+  {
+    "name": "spring.database-names.list",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.database-names.list'"
+  },
+  {
+    "name": "spring.datasource.micro.url",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.micro.url'"
+  },
+  {
+    "name": "spring.datasource.micro.username",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.micro.username'"
+  },
+  {
+    "name": "spring.datasource.micro.password",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.micro.password'"
+  },
+  {
+    "name": "spring.datasource.micro.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.micro.driver-class-name'"
+  },
+  {
+    "name": "spring.datasource.contacts.url",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.contacts.url'"
+  },
+  {
+    "name": "spring.datasource.contacts.username",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.contacts.username'"
+  },
+  {
+    "name": "spring.datasource.contacts.password",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.contacts.password'"
+  },
+  {
+    "name": "spring.datasource.contacts.driver-class-name",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.contacts.driver-class-name'"
+  }
+]}
